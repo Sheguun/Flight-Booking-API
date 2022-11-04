@@ -6,20 +6,14 @@ const routes = require("./routes/flightRoute");
 
 const app = express();
 
+
 app.use(json());
 
-app.use("/", routes);
+app.use("/flight", routes);
 
 const port = process.env.PORT || 3000;
+
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-
-
-const flights = {
-  title: "flight to canada",
-  time: '1pm',
-  price: 26000,
-  date: "26-06-2022"
-  }
