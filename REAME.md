@@ -1,6 +1,6 @@
 zuri-flight-booking-api
 
-NODEJS JASK FROM ZURI TRAINING
+NODEJS TASK FROM ZURI TRAINING
 REQUIREMENTS
 Create a rest API that has the following features:
 
